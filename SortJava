@@ -1,0 +1,25 @@
+class ArrayProgram
+{
+ public static void main(String args[])
+ {
+ int n;
+ int s[]=new int[n];
+ int i;
+ for(i=o;i<n;i++)
+  {
+  a[i]=Integer.parseInt(args[i]);
+  }
+ System.out.print("the even numbers are\n"); 
+ for(i=0;i<n;i++)
+  {
+  if a[i]%2==0
+  System.out.print("\t"+a[i]); 
+  }
+ System.out.print("\n the odd numbers are\n");
+ for(i=0;i<n;i++)
+  {
+  if(a[i]%2!=0)
+  System.out.print("\t"+a[i]);
+  }
+ }
+}
